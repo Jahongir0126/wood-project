@@ -1,0 +1,179 @@
+.about{
+    margin-top: 50px;
+    max-width: 90%;
+    height: 825px;
+    filter: drop-shadow(0px 4px 52px rgba(245, 245, 245, 0.17));
+    background: #1E0C06;
+border-radius: 0px 42px 42px 0px;
+
+
+    &__us{
+        max-width: 512px;
+        margin-left: auto;
+        margin-right: 556px;
+        & > h2{
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../../img/person-taking-measures-wood\ 1.png);
+                height: 205px;
+width: 205px;
+top: 120px;
+left: 790px;
+            }
+            padding-top: 94px;
+            font-family: 'KyivType Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 90px;
+            line-height: 132.9%;
+            /* identical to box height, or 120px */
+            
+            text-transform: uppercase;
+            
+            color: #F5F5F5;
+        }
+        & > p{
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../../img/Group\ 15.png);
+                height: 347px;
+width: 350px;
+top: -50px;
+left: 570px;
+
+            }
+            &::before{
+                position: absolute;
+                content: "";
+                background: url(../../img/cropped-man-wearing-blue-overall-drawing-furniture-sheet-paper\ 1.png);
+                height: 205px;
+width: 205px;
+top: 310px;
+    left: 760px; 
+
+            }
+            margin-top:67px;
+            font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+color: #F5F5F5;
+line-height: 139.4%;
+        }
+    }
+}
+main{
+    background: #222021;
+}
+
+
+
+.ant{
+    padding-bottom: 100px;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        background: url(../../img/image1.png) no-repeat;
+        height: 546px;
+width: 546px;
+left: 800px;
+top: 440px;
+
+
+    }
+    & > h2{
+        font-family: 'KyivType Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 90px;
+line-height: 132.9%;
+/* identical to box height, or 120px */
+margin-bottom: 40px;
+text-transform: uppercase;
+
+color: #F5F5F5;
+
+    }
+    &__row{
+
+        &__left{
+            column-gap: 25px;
+            & > input{
+                margin-top: 25px;
+                background-color: transparent;
+                border: 4px solid #728BAD;
+border-radius: 42px;
+height: 77px;
+width: 598px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 139.4%;
+padding-left: 40px;
+
+
+            }
+             & > textarea{
+                margin-top: 25px;
+                background-color: transparent;
+                border: 4px solid #728BAD;
+border-radius: 42px;
+width: 598px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 139.4%;
+padding-left: 40px;
+height: 257px;
+width: 598px;
+
+
+
+            }
+            & > button{
+                font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #F5F5F5;
+                height: 58px;
+width: 216px;
+background: #728BAD;
+margin-top: 40px;
+border-radius: 42px;
+padding: 11px, 70px, 11px, 70px;
+
+            }
+        }
+        &__right{
+            & > p{
+                font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 139.4%;
+// height: 126px;
+width: 460px;
+text-align: end;
+margin-bottom: 0px;
+margin-left: 120px;
+
+
+/* or 42px */
+
+text-align: right;
+
+color: #F5F5F5;
+            }
+        }
+    }
+}
